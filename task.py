@@ -18,7 +18,7 @@ def task_2(): # Countdown
     countdown = 100
     for i in range(countdown - number + 1):
         output.append(countdown)
-        print(countdown)
+        #print(countdown)
         countdown -= 1
     return output
 
